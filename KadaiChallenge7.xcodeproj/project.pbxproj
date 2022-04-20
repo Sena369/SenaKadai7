@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3192193280E53C800DE3537 /* CalculationValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3192192280E53C800DE3537 /* CalculationValue.swift */; };
+		D34FE6F9280E47B00069CF3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34FE6F8280E47B00069CF3D /* AppDelegate.swift */; };
+		D34FE6FB280E47B00069CF3D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34FE6FA280E47B00069CF3D /* SceneDelegate.swift */; };
+		D34FE700280E47B00069CF3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D34FE6FE280E47B00069CF3D /* Main.storyboard */; };
+		D34FE702280E47B20069CF3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D34FE701280E47B20069CF3D /* Assets.xcassets */; };
+		D34FE705280E47B20069CF3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D34FE703280E47B20069CF3D /* LaunchScreen.storyboard */; };
+		D3EF154D28102E050029BBCF /* AdditionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EF154C28102E050029BBCF /* AdditionViewController.swift */; };
+		D3EF154F28102E180029BBCF /* SubtractionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EF154E28102E180029BBCF /* SubtractionViewController.swift */; };
+		D3EF1551281040740029BBCF /* Pods_KadaiChallenge7.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2D94872AA39337C2FB6F41A /* Pods_KadaiChallenge7.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		938E4654B388D224961E794F /* Pods-KadaiChallenge7.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KadaiChallenge7.release.xcconfig"; path = "Target Support Files/Pods-KadaiChallenge7/Pods-KadaiChallenge7.release.xcconfig"; sourceTree = "<group>"; };
+		CE7AD978B9B1371F50EA83CA /* Pods-KadaiChallenge7.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KadaiChallenge7.debug.xcconfig"; path = "Target Support Files/Pods-KadaiChallenge7/Pods-KadaiChallenge7.debug.xcconfig"; sourceTree = "<group>"; };
+		D3192192280E53C800DE3537 /* CalculationValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationValue.swift; sourceTree = "<group>"; };
+		D34FE6F5280E47B00069CF3D /* KadaiChallenge7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KadaiChallenge7.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D34FE6F8280E47B00069CF3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D34FE6FA280E47B00069CF3D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D34FE6FF280E47B00069CF3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D34FE701280E47B20069CF3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D34FE704280E47B20069CF3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D34FE706280E47B20069CF3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3EF154C28102E050029BBCF /* AdditionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionViewController.swift; sourceTree = "<group>"; };
+		D3EF154E28102E180029BBCF /* SubtractionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtractionViewController.swift; sourceTree = "<group>"; };
+		E2D94872AA39337C2FB6F41A /* Pods_KadaiChallenge7.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KadaiChallenge7.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D34FE6F2280E47B00069CF3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3EF1551281040740029BBCF /* Pods_KadaiChallenge7.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C79A99B03913AA51EAFD1E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2D94872AA39337C2FB6F41A /* Pods_KadaiChallenge7.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D34FE6EC280E47B00069CF3D = {
+			isa = PBXGroup;
+			children = (
+				D34FE6F7280E47B00069CF3D /* KadaiChallenge7 */,
+				D34FE6F6280E47B00069CF3D /* Products */,
+				F8ABD0C964DEB7A469BF1C06 /* Pods */,
+				9C79A99B03913AA51EAFD1E1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D34FE6F6280E47B00069CF3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D34FE6F5280E47B00069CF3D /* KadaiChallenge7.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D34FE6F7280E47B00069CF3D /* KadaiChallenge7 */ = {
+			isa = PBXGroup;
+			children = (
+				D34FE716280E52BE0069CF3D /* Model */,
+				D34FE717280E52D40069CF3D /* View */,
+				D34FE718280E53050069CF3D /* Controller */,
+				D34FE6FA280E47B00069CF3D /* SceneDelegate.swift */,
+				D34FE6F8280E47B00069CF3D /* AppDelegate.swift */,
+				D34FE701280E47B20069CF3D /* Assets.xcassets */,
+				D34FE703280E47B20069CF3D /* LaunchScreen.storyboard */,
+				D34FE706280E47B20069CF3D /* Info.plist */,
+			);
+			path = KadaiChallenge7;
+			sourceTree = "<group>";
+		};
+		D34FE716280E52BE0069CF3D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D3192192280E53C800DE3537 /* CalculationValue.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D34FE717280E52D40069CF3D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D34FE6FE280E47B00069CF3D /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D34FE718280E53050069CF3D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D3EF154C28102E050029BBCF /* AdditionViewController.swift */,
+				D3EF154E28102E180029BBCF /* SubtractionViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F8ABD0C964DEB7A469BF1C06 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE7AD978B9B1371F50EA83CA /* Pods-KadaiChallenge7.debug.xcconfig */,
+				938E4654B388D224961E794F /* Pods-KadaiChallenge7.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D34FE6F4280E47B00069CF3D /* KadaiChallenge7 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D34FE709280E47B20069CF3D /* Build configuration list for PBXNativeTarget "KadaiChallenge7" */;
+			buildPhases = (
+				9594956212DA8527AA8E298C /* [CP] Check Pods Manifest.lock */,
+				D34FE6F1280E47B00069CF3D /* Sources */,
+				D34FE6F2280E47B00069CF3D /* Frameworks */,
+				D34FE6F3280E47B00069CF3D /* Resources */,
+				D3EF155028103F3B0029BBCF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KadaiChallenge7;
+			productName = KadaiChallenge7;
+			productReference = D34FE6F5280E47B00069CF3D /* KadaiChallenge7.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D34FE6ED280E47B00069CF3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					D34FE6F4280E47B00069CF3D = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = D34FE6F0280E47B00069CF3D /* Build configuration list for PBXProject "KadaiChallenge7" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D34FE6EC280E47B00069CF3D;
+			productRefGroup = D34FE6F6280E47B00069CF3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D34FE6F4280E47B00069CF3D /* KadaiChallenge7 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D34FE6F3280E47B00069CF3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D34FE705280E47B20069CF3D /* LaunchScreen.storyboard in Resources */,
+				D34FE702280E47B20069CF3D /* Assets.xcassets in Resources */,
+				D34FE700280E47B00069CF3D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9594956212DA8527AA8E298C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KadaiChallenge7-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3EF155028103F3B0029BBCF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which \"${PODS_ROOT}/SwiftLint/swiftlint\" >/dev/null; then\n${PODS_ROOT}/SwiftLint/swiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D34FE6F1280E47B00069CF3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3192193280E53C800DE3537 /* CalculationValue.swift in Sources */,
+				D34FE6F9280E47B00069CF3D /* AppDelegate.swift in Sources */,
+				D3EF154D28102E050029BBCF /* AdditionViewController.swift in Sources */,
+				D3EF154F28102E180029BBCF /* SubtractionViewController.swift in Sources */,
+				D34FE6FB280E47B00069CF3D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D34FE6FE280E47B00069CF3D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D34FE6FF280E47B00069CF3D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D34FE703280E47B20069CF3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D34FE704280E47B20069CF3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D34FE707280E47B20069CF3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D34FE708280E47B20069CF3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D34FE70A280E47B20069CF3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE7AD978B9B1371F50EA83CA /* Pods-KadaiChallenge7.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				EXCLUDED_ARCHS = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KadaiChallenge7/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Swift-Beginners.KadaiChallenge7";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D34FE70B280E47B20069CF3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 938E4654B388D224961E794F /* Pods-KadaiChallenge7.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				EXCLUDED_ARCHS = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KadaiChallenge7/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Swift-Beginners.KadaiChallenge7";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D34FE6F0280E47B00069CF3D /* Build configuration list for PBXProject "KadaiChallenge7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D34FE707280E47B20069CF3D /* Debug */,
+				D34FE708280E47B20069CF3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D34FE709280E47B20069CF3D /* Build configuration list for PBXNativeTarget "KadaiChallenge7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D34FE70A280E47B20069CF3D /* Debug */,
+				D34FE70B280E47B20069CF3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D34FE6ED280E47B00069CF3D /* Project object */;
+}
