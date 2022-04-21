@@ -13,7 +13,7 @@ class AdditionViewController: UIViewController {
     @IBOutlet weak var secondTextField: UITextField!
     @IBOutlet weak var resultLabel: UILabel!
 
-    let additonModel = AdditionModel()
+    let additionModel = AdditionModel()
 
     @IBAction func calculateButton(_ sender: Any) {
         guard let firstValue = Double(firstTextField.text ?? "") else {
@@ -22,7 +22,7 @@ class AdditionViewController: UIViewController {
         guard let secondValue = Double(secondTextField.text ?? "") else {
             return presentAlert(message: CalculationError.secondValueNonNumric.message)
         }
-        resultLabel.text = String(additonModel.resultValue(firstValue, secondValue))
+        resultLabel.text = String(additionModel.resultValue(firstValue, secondValue))
 
         firstTextField.endEditing(true)
         secondTextField.endEditing(true)
