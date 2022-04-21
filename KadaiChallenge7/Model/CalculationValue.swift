@@ -8,13 +8,13 @@
 import Foundation
 
 struct AdditionModel {
-    func addValue(value1: Int, value2: Int) -> Int {
+    let resultValue = { (value1, value2) -> Double in
         value1 + value2
     }
 }
 
 struct SubtractionModel {
-    func subtractValue(value1: Int, value2: Int) -> Int {
+    let resultValue = { (value1, value2) -> Double in
         value1 - value2
     }
 }
