@@ -7,13 +7,13 @@
 
 import Foundation
 
-struct AdditionModel {
+final class AdditionModel {
     let resultValue = { (value1, value2) -> Double in
         value1 + value2
     }
 }
 
-struct SubtractionModel {
+final class SubtractionModel {
     let resultValue = { (value1, value2) -> Double in
         value1 - value2
     }
