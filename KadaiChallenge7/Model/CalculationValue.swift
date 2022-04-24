@@ -8,27 +8,18 @@
 import Foundation
 
 final class AdditionModel {
-    let resultValue = { (value1, value2) -> Double in
+    func add(value1: Double, value2: Double) -> Double {
         value1 + value2
     }
 }
 
 final class SubtractionModel {
-    let resultValue = { (value1, value2) -> Double in
+    func subtract(value1: Double, value2: Double) -> Double {
         value1 - value2
     }
 }
 
-enum CalculationError: Error {
-    case firstValueNonNumric
-    case secondValueNonNumric
-
-    var message: String {
-        switch self {
-        case .firstValueNonNumric:
-            return "一つ目の値を入力してください"
-        case .secondValueNonNumric:
-            return "二つ目の値を入力してください"
-        }
-    }
+enum CalculationErrorMessage {
+    static let firstValueNonNumric = "一つ目の値を入力してください"
+    static let secondValueNonNumric = "二つ目の値を入力してください"
 }
